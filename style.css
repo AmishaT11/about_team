@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Sumana:wght@700&display=swap");
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(45deg, #011b2d, #2b82c0); /* Background gradient color */
+    color: #fff;
+}
+.heading h1{
+    text-align: center;
+    font-size: 50px;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color:black;
+  }
+  .navbar ul .navi{
+    padding-left: 800px;
+    
+  }
+  .navbar ul li h3{
+    color: #fff;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .navbar ul li {
+    float: left;
+  }
+  
+  .navbar li a {
+    font-family: 'Montserrat';
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 16px;
+    text-decoration: none;
+  }
+  
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team-member {
+    width: 250px;
+    margin: 20px;
+    padding: 20px;
+    padding-top: 30px;
+    background-color: rgba(255, 255, 255, 0.2); /* Transparent background */
+    border: 1px solid #fff;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.team-member:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.team-member img {
+    max-width: 100px;
+    border-radius: 50%;
+}
+
+.team-member h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.team-member p {
+    font-size: 16px;
+    margin: 5px 0;
+}
